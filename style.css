@@ -111,7 +111,7 @@ footer {
 }
 
 .hover-image:hover {
-    content: url('/images/profile_picture2.jpg');
+    content: url('./images/profile_picture2.jpg');
 }
  
 h1 {
