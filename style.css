@@ -1,0 +1,151 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #E0EEE0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #829778;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dfecdf;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d6c8ba;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #D2B48C;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #D2B48C;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #dfecdf;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d6c8ba;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #829778;
+    color: white;
+    margin-top: 30px;
+}
+ 
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+ 
+
+.container {
+    text-align: center;
+}
+.hover-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: 20px auto;
+    transition: background-image 0.3s ease;
+}
+
+.hover-image:hover {
+    content: url('images/profile_picture2.jpg');
+}
+ 
+h1 {
+    font-size: 2.5em;
+    font-family: 'Lora', sans-serif;
+    font-weight: normal;
+}
+
+h2, nav a, button, p, h3 { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.7;
+}
+ 
+#funFactButton {
+    background-color: #E99695;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#funFactButton:hover {
+    background-color: #CD5C5C;
+}
+
+#funFact {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #829778;
+}
